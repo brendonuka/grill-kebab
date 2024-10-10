@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Grill & Kebab - Contact</title>
+  <link rel="shortcut icon" href="image/kebab-logo.png" type="image/x-icon">
+  <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="my.css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar border-top-header navbar-expand-lg navbar-light bg-white fixed-top py-3">
+    <div class="container-xxl">
+      <a href="index.html">
+        <h3 class="d-flex align-items-center">
+          <i class="fa fa-utensils pe-2"></i>Grill & Kebab
+        </h3>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <button class="btn btn-outline-success" type="submit">
+          Call +43 069 100 200 0
+        </button>
+      </div>
+    </div>
+  </nav>
+  <main class="main pt-5">
+    <!-- Container Fluid Bg-Contact -->
+    <div class="container-fluid bg-contact py-5">
+      <div class="container mt-5 pb-5">
+        <!-- Row -->
+        <div class="row py-5 justify-content-center">
+          <div class="col-lg-5 align-items-center px-3 pb-5">
+            <div class="media-body">
+              <h1 class="display-3">Contact</h1>
+            </div>
+            <p>Get in touch with me if you have any queries and I’ll get back to you as soon as possible.</p>
+            <!-- Media Contact -->
+            <div class="media contact-info mt-5">
+              <div class="d-flex gap-3 align-items-center">
+                <i class="fa-solid fa-location-dot location"></i>
+                <div class="">
+                  <p class="contact-address">Address</p>
+                  <h4>Maggstraße 2, 8042 Graz, Austria</h4>
+                </div>
+              </div>
+              <div class="d-flex gap-3 align-items-center mt-5">
+                <i class="fa-solid fa-phone phone"></i>
+                <div class="">
+                  <p class="contact-address">Phone</p>
+                  <h4>+43 069 100 200 0</h4>
+                </div>
+              </div>
+              <div class="d-flex gap-3 align-items-center mt-5">
+                <i class="fa-solid fa-phone"></i>
+                <div class="">
+                  <p class="contact-address">Email</p>
+                  <h4>mail@kebab-grill.com</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Col Form -->
+          <div class="col-lg-5 bg-white p-5 rounded border-around">
+            <h2>Let's Talk</h2>
+            <p class="mb-5">I would love to hear a few words about your project.</p>
+            <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm"
+              novalidate="novalidate">
+              <div class="row">
+                <!-- Form name -->
+                <div class="col-lg-12 mb-3">
+                  <input class="form-control bg-light" name="name" id="name" type="text" placeholder="Enter your name">
+                </div>
+                <!-- Form email -->
+                <div class="col-lg-12 mb-3">
+                  <input class="form-control bg-light" name="email" id="email" type="email" placeholder="Email">
+                </div>
+                <!-- Form subject -->
+                <div class="col-lg-12 mb-3">
+                  <input class="form-control bg-light" name="subject" id="subject" type="text"
+                    placeholder="Enter Subject">
+                </div>
+                <!-- Form message -->
+                <div class="col-lg-12 mb-3">
+                  <textarea class="form-control w-100 bg-light" name="message" id="message" cols="30" rows="5"
+                    placeholder="Enter Message"></textarea>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <button type="button" class="btn btn-dark px-5">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Here Start Google Map -->
+    <div class="container-fluid p-0">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d86954.08782295712!2d15.359562572099918!3d47.07328131747711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476e3587173065bb%3A0xfe8e8ad1d2dfdd9b!2sGraz%2C%20Austria!5e0!3m2!1sen!2ssi!4v1723491465905!5m2!1sen!2ssi"
+        width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!-- Container Fluid -->
+    <div class="container-fluid bg-dark text-white p-0">
+      <div class="container py-4">
+        <!-- Footer -->
+        <div class="row m-auto">
+          <div class="col-lg-3 pt-4 pt-sm-4">
+            <h4>Grill & Kebab</h4>
+            <ul class="nav flex-column">
+              <p class="nav-item mb-2">Welcome you with an unforgettable experience of delicious food and a warm
+                atmosphere. We offer traditional dishes prepared with fresh ingredients and love.</p>
+            </ul>
+          </div>
+          <!-- Col 1 -->
+          <div class="col-lg-3 pt-4 pt-sm-4">
+            <h4>Opening Times</h4>
+            <ul class="nav flex-column">
+              <p class="nav-item mb-2">
+                09:30 AM - 11:00 PM <br>
+                Every Day
+              </p>
+            </ul>
+          </div>
+          <!-- Col 2 -->
+          <div class="col-lg-3 pt-4 pt-sm-4">
+            <h4>About Us</h4>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a class="text-white" href="index.html">Home</a></li>
+              <li class="nav-item mb-2"><a class="text-white" href="about.html">About</a></li>
+              <li class="nav-item mb-2"><a class="text-white" href="menu.html">Menu</a></li>
+              <li class="nav-item mb-2"><a class="text-white" href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <!-- Col 3 -->
+          <div class="col-lg-3 pt-4 pt-sm-4">
+            <h4>Contact US</h4>
+            <ul class="nav flex-column">
+              <p class="nav-item mb-2"><i class="fa-solid fa-location-dot"></i> 123 Street London UK</p>
+              <p class="nav-item mb-2"><i class="fa-solid fa-phone"></i> Tel: +386 04276789</p>
+              <p class="nav-item mb-2"><i class="fa-solid fa-envelope"></i> info@grillkebab.com</p>
+            </ul>
+            <div class="d-flex gap-3 mt-3">
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Bottom -->
+    <div class="container-fluid bg-dark text-white px-0 pt-3">
+      <hr class="m-0 p-0">
+      <div class="container py-2 mt-3">
+        <div class="row m-auto">
+          <div class="col-lg-6">
+            <p class="text-left">
+              Copyright © 2024 The Grill & Kebab
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <p class="text-end">
+              Powerd by The Grill & Kebab
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+</body>
+
+</html>
